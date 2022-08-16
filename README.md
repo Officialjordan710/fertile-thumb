@@ -1,27 +1,27 @@
-# FertileThumb2
+# Jordan Taylor's Project Idea
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+## Purpose
 
-## Development server
+The application is designed to assist parents in a variety of ways when it comes to their children.  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Functions
 
-## Code scaffolding
+1. Logging Information
+    1. Measurements
+    2. Scheduled Doctor's/Dentist Visits
+2. Online Forum
+3. Link to pharmacy websites to buy medicine
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Primary Consumers
 
-## Build
+This application is specifically designed for parents or guardians, however it is available for anyone to use.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Contributors
 
-## Running unit tests
+<p>Jordan Taylor of Computer Enterprises Inc. (CEI) will be creating and contributing to this project.<br>
+Irwin Hurst of Computer Enterprises Inc. (CEI) will be contributing to this project.<br>
+Steven Hook of Computer Enterprises Inc. (CEI) will be contributing to this project.</p>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Inspiration
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is to reflect on issues that I run into within my personal life and could use more convenience to solve
