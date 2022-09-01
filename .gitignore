@@ -27,3 +27,8 @@ baseline.json
 .history
 
 .husky/
+
+reserved_code.txt
+
+.angular/cache
+
