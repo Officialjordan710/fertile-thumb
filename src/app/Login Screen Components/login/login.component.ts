@@ -12,4 +12,20 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  x = document.getElementById("login");
+  y = document.getElementById("register");
+  z = document.getElementById("btn");
+
+  register(): void{
+    this.x.style.left = "-400px";
+    this.y.style.left = "50px";
+    this.z.style.left = "110px";
+  }
+
+  login(): void{
+    this.x.style.left = "50px";
+    this.y.style.left = "450px";
+    this.z.style.left = "0";
+  }
+
 }
