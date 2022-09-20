@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './Dashboard Contents/header/header.component';
-import { CarouselComponent } from './Dashboard Contents/carousel/carousel.component';
-import { CardsComponent } from './Dashboard Contents/cards/cards.component';
-import { LoginComponent } from './Login Screen Components/login/login.component';
+import { HeaderComponent } from './dashboard-contents/header/header.component';
+import { CarouselComponent } from './dashboard-contents/carousel/carousel.component';
+import { CardsComponent } from './dashboard-contents/cards/cards.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { LoginComponent } from './Login Screen Components/login/login.component'
     HeaderComponent,
     CarouselComponent,
     CardsComponent,
-    LoginComponent
+    routingComponents
   ],
   imports: [
     BrowserModule,
