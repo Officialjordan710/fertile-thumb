@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './dashboard-contents/header/header.component';
 import { CarouselComponent } from './dashboard-contents/carousel/carousel.component';
 import { CardsComponent } from './dashboard-contents/cards/cards.component';
+import { ForumComponent } from './forum-screen-components/forum/forum.component';
+import { ThreadComponent } from './forum-screen-components/thread/thread.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { CardsComponent } from './dashboard-contents/cards/cards.component';
     HeaderComponent,
     CarouselComponent,
     CardsComponent,
-    routingComponents
+    routingComponents,
+    ForumComponent,
+    ThreadComponent
   ],
   imports: [
     BrowserModule,
