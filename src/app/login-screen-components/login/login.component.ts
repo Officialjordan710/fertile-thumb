@@ -17,15 +17,31 @@ export class LoginComponent implements OnInit {
   z = document.getElementById("btn");
 
   register(): void{
-    this.x.style.left = "-400px";
-    this.y.style.left = "50px";
-    this.z.style.left = "110px";
+    if(this.x){
+      this.x.style.left = "-400px";
+    }
+
+    if(this.y){
+      this.y.style.left = "50px";
+    }
+
+    if(this.z){
+      this.z.style.left = "110px";
+    }
   }
 
   login(): void{
-    this.x.style.left = "50px";
-    this.y.style.left = "450px";
-    this.z.style.left = "0";
+    if(this.x){
+      this.x.style.left = "50px";
+    }
+
+    if(this.y){
+      this.y.style.left = "450px";
+    }
+
+    if(this.z){
+      this.z.style.left = "0";
+    }
   }
 
 }
