@@ -1,0 +1,11 @@
+#LandingPageSubheadings {
+  margin: 70px;
+  text-align: center;
+  font-family: cursive;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
